@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="291.0" prefHeight="356.0" prefWidth="338.0">
+         <children>
+            <Button fx:id="signInBtn" layoutX="190.0" layoutY="240.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Sign In" />
+            <PasswordField fx:id="passField" layoutX="60.0" layoutY="166.0" prefHeight="25.0" prefWidth="235.0" promptText="Password" />
+            <TextField fx:id="userField" layoutX="60.0" layoutY="96.0" prefHeight="25.0" prefWidth="235.0" promptText="Username" />
+            <Hyperlink fx:id="forgotPass" layoutX="60.0" layoutY="241.0" text="Forgot Password" />
+         </children>
+      </Pane>
+      <Pane prefHeight="356.0" prefWidth="286.0" style="-fx-background-color: blue;" />
+   </children>
+</AnchorPane>
